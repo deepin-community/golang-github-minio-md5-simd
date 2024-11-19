@@ -1,5 +1,41 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-minio-md5-simd (1.1.2-4) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-minio-md5-simd-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 17 Dec 2022 16:43:35 +0000
+
+golang-github-minio-md5-simd (1.1.2-3) unstable; urgency=medium
+
+  * Team Upload.
+  * d/control: Tighten Build-Depends and Depends to
+    use >=2.0.6 of klauspost/cpuid
+
+ -- Nilesh Patra <nilesh@debian.org>  Fri, 03 Sep 2021 00:48:57 +0530
+
+golang-github-minio-md5-simd (1.1.2-2) unstable; urgency=medium
+
+  * import 1.1.1-1 changes
+
+ -- Félix Sipma <felix@debian.org>  Sun, 29 Aug 2021 11:03:32 +0200
+
+golang-github-minio-md5-simd (1.1.2-1) unstable; urgency=medium
+
+  * add missing entry in copyright file
+  * New upstream version 1.1.2
+
+ -- Félix Sipma <felix@debian.org>  Sun, 29 Aug 2021 10:19:18 +0200
+
+golang-github-minio-md5-simd (1.1.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+  * Update Standards-Version to 4.5.1 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 19 Jan 2021 11:32:31 +0800
+
+golang-github-minio-md5-simd (1.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #974867)
+
+ -- Félix Sipma <felix+debian@gueux.org>  Sun, 15 Nov 2020 21:01:30 +0100
